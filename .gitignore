@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Certificates
+*.crt
+*.csr
+*.key
+*.key.org
