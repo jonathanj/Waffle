@@ -1,0 +1,72 @@
+.msg {
+    display: table-row;
+    font-family: "Monaco", "Consolas", monospace;
+}
+
+.msg-timestamp {
+    display: table-cell;
+    font-size: 80%;
+    width: 10em;
+    vertical-align: top;
+}
+
+.msg-sender {
+    display: table-cell;
+    font-weight: bold;
+    padding-left: 1em;
+    text-align: right;
+}
+
+.msg-content {
+    display: table-cell;
+    padding-left: 1em;
+}
+
+.is-msg-type-join {
+    color: green;
+}
+
+.is-msg-type-kick,
+.is-msg-type-part {
+    color: red;
+}
+
+.is-msg-type-quit {
+    color: maroon;
+}
+
+.is-msg-type-action {
+    color: olive;
+}
+
+.is-msg-type-notice {
+    color: teal;
+}
+
+.is-msg-type-mode {
+    color: purple;
+}
+
+.is-msg-type-topic {
+    color: orange;
+}
+
+.is-msg-flag-self {
+    color: gray;
+}
+
+.is-msg-flag-highlight {
+    color: magenta;
+}
+
+.is-msg-flag-backlog {
+    opacity: 0.5;
+}
+
+.is-msg-marker {
+    background: cyan;
+}
+
+.hidden {
+    display: none;
+}

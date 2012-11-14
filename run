@@ -1,0 +1,3 @@
+#/bin/sh
+coffee -c waffle/static/js/waffle.coffee &&
+twistd -noy waffle.tac
